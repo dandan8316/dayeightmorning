@@ -10,7 +10,7 @@
       // 判断是否有token
       let token = window.sessionStorage.getItem("token");
       if (token) {
-        // 登录成功de
+        // 登录成功之后
       } else {
         // 没有token 没有登录
         this.$message.error("请先登录");
