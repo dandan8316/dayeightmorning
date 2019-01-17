@@ -1,4 +1,4 @@
-# elepro
+# 02.manager
 
 ## Project setup
 ```
