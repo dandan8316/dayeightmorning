@@ -10,6 +10,7 @@ import login from '../components/login.vue';
 import main from '../components/main.vue';
 import user from '../components/user.vue';
 import roles from '../components/roles.vue';
+import rights from '../components/rights.vue';
 
 // 写规则
 let routes = [
@@ -30,6 +31,10 @@ let routes = [
       {
         path:'roles',
         component:roles
+      },
+      {
+        path:'rights',
+        component:rights
       }
     ]
   }
